@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body bgcolor="#99b3e6">
+            Search:<input type="search" name="search" placeholder="search">
+
+    <h1>Contact Us</h1>
+<form method="get">
+    <fieldset>
+        <legend>Personal Information</legend>
+    <p>
+        <label for="fname">First name:</label> <input type="text" maxlength="15" name="fname" required="required" id="fname">
+    </p>
+    <p>
+     <label for="lname"> Last name:</label>  <input type="text" maxlength="20" name="lname" required="required" id="lname" >
+    </p>
+    <p>
+      <label for="gender">Gender:</label>   
+         <input type="radio" name="gender" value="Male" id="gender">Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="NA">Prefer not to mention
+    </p>
+
+ <P>
+        <label for="dob">Date of birth:</label>
+        <input type="date" name="dob" id="dob">
+    </P>
+
+</fieldset>
+
+
+<fieldset>
+        <legend>Contact Info</legend>
+<p>
+    <label for="email">Email:</label> 
+        <input type="email" id="email">
+</p>
+    
+   
+    <P>
+        <label for="address">Address:</label><textarea name="address" id="address" rows="10" cols="30"></textarea>
+
+    </P>
+    <p>
+        <label for="country">Country:</label>
+            <select name="country" id="country"size="5">
+                <option value="Sri Lanka"> Sri Lanka</option>
+                <option value="China">China</option>
+                <option value="India">India</option>
+                <option value="UK">UK</option>
+                <option value="Germany">Germany</option>
+                <option value="New Zealend">New Zealend </option>
+                <option value="Australia">Australia</option>
+            </select>
+</fieldset>
+
+<fieldset>
+    <legend>Other</legend>
+ <p>
+        <label for="pin">PIN:</labek><input type="password" maxlength="3" name="pin">
+    </p>
+
+<p>
+        Preferences: <input type="checkbox" value="Fantasy" name="Preferences">Fantasy
+        <input type="checkbox" value="Comedy" name="Preferences">Comedy
+        <input type="checkbox" value="Action" name="Preferences">Action
+        <input type="checkbox" value="Thriller" name="Preferences">Thriller
+    </p>
+
+
+
+    </p>
+    <p>
+        CV:<input type="file">
+    </p>
+   
+</fieldset>
+    <p>
+        <input type="button" value="Send Copy" name="sendCopy">
+        <input type="submit">
+        <input type="reset">
+    </p>
+    
+</form>
+<video src="./video.mp4" poster="./pexels-thought-catalog-2228554.jpg" width="800" height="300" preload="auto" controls loop autoplay></video>
+<audio src="./dreams.mp3" controls autoplay></audio>
+
+</body>
+</html>

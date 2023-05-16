@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Oval|Caveat|Asap');
+
+
+
+
+#photo{
+
+    height:700px;
+    margin:15px;
+    float:left;
+    width: 250px;
+    background-color:rgb(77, 52, 23);
+
+}
+#myName,#jobTitle{
+    color:beige;
+    font-family:sans-serif;
+    font-family:"Asap";
+}
+  #intro{
+         text-align: justify;
+         width:1550px;
+         margin:15px;
+         margin-top:17px;
+         float:left;
+         
+}
+#aboutHead{
+    background-color:rgb(77, 52, 23) ;
+    color: white;
+    width:180px; 
+}
+body{
+    background-color: rgb(185, 168, 146);
+    font-family:"Nova Oval"
+}
+nav a{
+    text-decoration: none;
+    margin-right: 10px;
+    color:black;
+    border-bottom: 3px solid black;
+    
+}
+nav a:hover{
+    background-color: aliceblue;
+}
+nav{
+    float: right;
+    margin-right: 50px;
+}
